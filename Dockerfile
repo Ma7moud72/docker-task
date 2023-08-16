@@ -2,9 +2,9 @@ FROM openjdk
 
 WORKDIR /application
 
-COPY Esmail.java .
+COPY Mahmoud.java .
 
 
-RUN javac Esmail.java
+RUN javac Mahmoud.java
 
-CMD java Esmail
+CMD java Mahmoud
